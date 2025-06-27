@@ -5,8 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', url: 'https://github.com/tsivareddy/devopstest.git'
-                pwd
-                ls -ltr
             }
         }
         
